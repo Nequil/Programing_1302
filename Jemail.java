@@ -13,7 +13,7 @@ public class Jemail extends JFrame implements ActionListener {
   JButton clearButton = new JButton("Clear");
 
   public static void main(String[] args) {
-    Jemail email = new Jemail();
+    Jemail frame = new Jemail();
     email.setSize(370,400);
     email.setLocation(500,400);
     email.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

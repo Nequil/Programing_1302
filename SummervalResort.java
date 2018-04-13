@@ -25,6 +25,7 @@ public class SummervalResort extends JFrame implements ActionListener {
     frame.setSize(370,400);
     frame.setLocation(500,400);
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    frame.setVisible(true);
   }
   public SummervalResort(){
     super("SummervalResort");
